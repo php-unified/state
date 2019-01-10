@@ -5,7 +5,7 @@
 This package provides a standard for tracking states of applications in PHP.
 The package aims to create a multi-use standard.
 
-This package contains an interface and a simple implementation for tracking states.
+This package contains interfaces and a simple implementations for tracking states.
 
 ## Installation
 
@@ -15,7 +15,12 @@ composer require php-unified/state
 
 ## Usage
 
-### Provided interface
+### Provided interfaces
+
+#### PhpUnified\State\Common\StateTrackerInterface
+
+This interface is an indication that an optional `StateInterface` interface can be supplied.
+The class that would implement this interface is one that keeps track of value for a state (optionally).
 
 #### PhpUnified\State\Common\StateInterface
 

@@ -134,7 +134,10 @@ class State implements StateInterface
         if ($this->states !== null && count($this->states) > 0) {
             $subStates['states'] = [];
             foreach ($this->states as $state) {
-                $subStates['states'] = array_merge($subStates['states'], $state->exportState());
+                $subStates['states'] = array_merge(
+                    $subStates['states'],
+                    $state->exportState()
+                );
             }
         }
 

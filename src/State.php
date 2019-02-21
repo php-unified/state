@@ -151,6 +151,8 @@ class State implements StateInterface
      * Adds a state to the state.
      *
      * @param StateInterface $state The state that should be a sub-state of this state.
+     *
+     * @return void
      */
     public function addState(StateInterface $state): void
     {

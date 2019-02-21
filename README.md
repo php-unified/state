@@ -79,6 +79,14 @@ $output = [
 To add a state to a state, the method `addState` is expected to be implemented.
 These states should be iterated over in both of the exporting states implementations.
 
+## Change log
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) and [CODE_OF_CONDUCT](CODE_OF_CONDUCT.md) for details.
+
 ## Tips
 
 ### Using nested states

@@ -15,6 +15,8 @@ interface StateTrackerInterface
      * Adds a state to the implementation which tracks a state.
      *
      * @param StateInterface $state The state that should be tracked by this implementation.
+     *
+     * @return void
      */
     public function addState(StateInterface $state): void;
 }

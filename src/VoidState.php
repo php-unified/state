@@ -29,6 +29,8 @@ class VoidState implements StateInterface
      * @param string $value The value of the state.
      *
      * @return void
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function setValue(string $value): void
     {
@@ -39,6 +41,8 @@ class VoidState implements StateInterface
      * Retrieves the value of the state.
      *
      * @return string
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function getValue(): string
     {
@@ -51,6 +55,8 @@ class VoidState implements StateInterface
      * @param string $identifier The identifier of the state.
      *
      * @return void
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function setIdentifier(string $identifier): void
     {
@@ -81,6 +87,10 @@ class VoidState implements StateInterface
      * Adds a state to the state.
      *
      * @param StateInterface $state The state that should be a sub-state of this state.
+     *
+     * @return void
+     *
+     * @SuppressWarnings(PHPMD.UnusedFormalParameter)
      */
     public function addState(StateInterface $state): void
     {

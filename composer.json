@@ -34,7 +34,11 @@
   "archive": {
     "exclude": [
       "/tests",
-      "/.gitignore"
+      "/.gitignore",
+      "/.travis.yml",
+      "/phpunit.xml",
+      "/PULL_REQUEST_TEMPLATE.md",
+      "/CODE_OF_CONDUCT.md"
     ]
   }
 }

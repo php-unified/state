@@ -183,7 +183,7 @@ exception being thrown, the latest state can still be logged.
 
 ## MIT License
 
-Copyright (c) 2019 Jyxon
+Copyright (c) 2019 GrizzIT
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
